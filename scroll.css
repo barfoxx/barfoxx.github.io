@@ -49,7 +49,8 @@ margin-left: -20px;
 }
 a {color: #afbdd4; text-decoration: none;}
 .big{font-size: 62px;text-transform: bold;}
-.marginBottom
-{
-  margin-bottom:18px;
+.marginBottom{
+  display:inline;
+  margin-bottom:15px;
+  background-color: #3b5998;
 }
