@@ -1,0 +1,55 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  color: white;
+  font: 10px sans-serif;
+  padding:0;
+  margin:0;
+  text-transform: uppercase;
+}
+html {
+  background: gray url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+body{
+  background:rgba(0,0,0,0.5);
+}
+article {
+  width: 253px;
+
+  margin: 10px;
+  margin-left: 40px;
+}
+h1 {
+  font: 6.3em 'Special Elite', cursive;
+  padding:5px;
+  margin:0;
+  margin-bottom: -12px;
+}
+p {
+  padding: 0;
+  margin:0;
+  font-size:22px;
+  padding-top: 3px;
+}
+p.smaller{
+  font-size: 12px;
+}
+.border {
+  border-top: 5px solid white;
+margin-left: -20px;
+.bigger{font-size: 32px;}
+}
+a {color: #afbdd4; text-decoration: none;}
+.big{font-size: 62px;text-transform: bold;}
+.marginBottom
+{
+  margin-bottom:18px;
+}
